@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="dina" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html,css,js,ajax,weather" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container text-center">
+    <div class="row text-center g-5">
+                <div class="text-center search-title">Search for a Meal</div>
+
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search by meal name">
+        </div>
+    <div class="col-md-6">
+        <input type="text" class="form-control" id="searchLetter" maxlength="1" onkeyup="searchByLetter()" placeholder="Search by first letter">
+    </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row" id="allMeals">
+
+    </div>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>

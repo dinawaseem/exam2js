@@ -1,0 +1,23 @@
+body {
+  background-color: #0d0d0d;
+  font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-title {
+  color: #f8f6f6;
+  padding-top: 20px;
+  font-size: 30px;
+}
+input {
+  background-color: #0d0d0d !important;
+  box-shadow: #f8f6f6;
+  color: #f8f6f6 !important;
+}
+#loading {
+  position: fixed;
+  inset: 0;
+  background-color: #0d0d0d;
+  z-index: 99999999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

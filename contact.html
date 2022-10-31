@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="dina" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html,css,js,ajax,weather" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div id="loading">
+        <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+    </div>
+    <div class="container text-center">
+        <div class="row text-center g-5">
+            <div class="text-center contact-title">Contact Us</div>
+            <div class="col-md-6">
+                <div class="user-inputs">
+                    <input class="form-control" type="text" id="userName" placeholder="Enter Your Name">
+                    <p class="alert alert-danger m-auto my-2 p-1 d-none" id="nameError">Name
+                        must be between 3 and 8 letters with no special characters or spaces</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="user-inputs">
+                    <input class="form-control" type="email" id="userEmail" placeholder="Enter Your Email">
+                    <p class="alert alert-danger m-auto my-2 p-1 d-none" id="emailError">Please enter a valid email</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="user-inputs">
+                    <input class="form-control" type="number" id="userNumber" placeholder="Enter Your Phone Number">
+                    <p class="alert alert-danger m-auto my-2 p-1 d-none" id="phoneError">Please enter a correct phone
+                        number starting with 01 & has up to 12 digits
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="user-inputs">
+                    <input class="form-control" type="number" id="userAge" placeholder="Enter Your Age">
+                    <p class="alert alert-danger m-auto my-2 p-1 d-none" id="ageError">Please enter a valid age</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="user-inputs">
+                    <input class="form-control" type="password" id="userPassword" placeholder="Enter Your Password">
+                    <p class="alert alert-danger m-auto my-2 p-1 d-none" id="passwordError">Please enter a correct
+                        password</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="user-inputs">
+                    <input class="form-control" type="password" id="rePassword" placeholder="Re-enter Your Password">
+                    <p class="alert alert-danger m-auto my-2 p-1 d-none" id="rePasswordError">Your passwords don't match
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-danger my-4" onclick="submit()" id="submitBtn">Submit</button>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

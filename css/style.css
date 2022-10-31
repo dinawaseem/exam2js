@@ -1,0 +1,166 @@
+body {
+  background-color: #0d0d0d;
+  font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: auto;
+}
+li {
+  list-style: none;
+}
+a,
+i {
+  text-decoration: none;
+  cursor: pointer;
+}
+/*Loading Screen*/
+#loading {
+  position: fixed;
+  inset: 0;
+  background-color: #0d0d0d;
+  z-index: 99999999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Side Nav Menu*/
+
+.side-nav-light .main-logo {
+  width: 100%;
+  padding: 10px;
+}
+
+.side-nav-light i {
+  font-size: 25px;
+}
+.main-logo img {
+  width: 100%;
+}
+
+.globe-share {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
+}
+.burger-menu i {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+}
+/*--------*/
+
+.side-nav-dark a {
+  color: #f8f6f6;
+}
+
+.side-nav-dark li {
+  padding-top: 2rem;
+}
+
+.side-nav-light {
+  width: 60px;
+  height: 100vh;
+  background-color: #f8f6f6;
+  text-align: center;
+  position: relative;
+  transition: all 1s;
+  z-index: 99999999999;
+}
+.side-nav-dark {
+  width: 100%;
+  height: 100vh;
+  background-color: #0d0d0d;
+  position: relative;
+  transition: all 1s;
+  z-index: 99999999999;
+}
+
+/*Meals*/
+
+#mealItem {
+  border-radius: 10px;
+  background-color: brown;
+}
+.fa-earth-americas,
+.fa-plate-wheat,
+.fa-kitchen-set
+  {
+  font-size: 50px;
+  color: #f8f6f6;
+}
+.areas,
+.category {
+  text-align: center;
+  color: #f8f6f6;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ingredients {
+  text-align: center;
+  color: #f8f6f6;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.search-title {
+  color: #f8f6f6;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/*Contact Page*/
+body {
+  background-color: #0d0d0d;
+  font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-title {
+  color: #f8f6f6;
+  padding-top: 20px;
+  font-size: 30px;
+}
+input {
+  background-color: #0d0d0d !important;
+  box-shadow: #f8f6f6;
+  color: #f8f6f6 !important;
+}
+#loading {
+  position: fixed;
+  inset: 0;
+  background-color: #0d0d0d;
+  z-index: 99999999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  border-radius: 5px;
+}
+
+.child-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.child-img:hover .child {
+  top: 0;
+}
+
+.child {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.61);
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  color: #f8f6f6;
+  transition: all 1s;
+  text-align: center;
+}
